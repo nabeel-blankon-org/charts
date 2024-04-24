@@ -3,7 +3,7 @@ entries:
   application:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-24T08:56:53.527214837Z"
+    created: "2024-04-24T08:58:10.443022012Z"
     description: A Helm chart for Kubernetes
     digest: 69b25320162923950c2217f3b6df51756ae4db676c5149dadd33c59b0341a225
     name: application
@@ -11,10 +11,46 @@ entries:
     urls:
     - https://raw.githubusercontent.com/nabeel-blankon-org/charts/main/application-0.1.0.tgz
     version: 0.1.0
+  claim:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-24T08:58:10.444906304Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: https://raw.githubusercontent.com/nabeel-blankon-org/charts/main
+      version: 0.1.0
+    - condition: rds.enabled
+      name: rds
+      repository: https://raw.githubusercontent.com/nabeel-blankon-org/charts/main
+      version: 0.1.0
+    - condition: nosql.enabled
+      name: nosql
+      repository: https://raw.githubusercontent.com/nabeel-blankon-org/charts/main
+      version: 0.1.0
+    - condition: fileStorage.enabled
+      name: file-storage
+      repository: https://raw.githubusercontent.com/nabeel-blankon-org/charts/main
+      version: 0.1.0
+    - condition: rabbitmq.enabled
+      name: rabbitmq
+      repository: https://raw.githubusercontent.com/nabeel-blankon-org/charts/main
+      version: 0.1.0
+    - condition: redis.enabled
+      name: redis
+      repository: https://raw.githubusercontent.com/nabeel-blankon-org/charts/main
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 882dcf9a5e941ce7a33169ecddeb540a869a4c77f3f85200d98cb2a6a72ad0de
+    name: claim
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/nabeel-blankon-org/charts/main/claim-0.1.0.tgz
+    version: 0.1.0
   file-storage:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-24T08:56:53.527560671Z"
+    created: "2024-04-24T08:58:10.446226845Z"
     description: A Helm chart for Kubernetes
     digest: 7120c68ac2c5cf60866a7bead708b644acdaf5fbc567f5b53618019767f210ef
     name: file-storage
@@ -25,7 +61,7 @@ entries:
   nosql:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-24T08:56:53.527961462Z"
+    created: "2024-04-24T08:58:10.446595137Z"
     description: A Helm chart for Kubernetes
     digest: ce09245435cce3f124eca66c48eb2cb16af2cfce63c7c2946bae43c5659d6c67
     name: nosql
@@ -36,7 +72,7 @@ entries:
   rabbitmq:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-24T08:56:53.528312796Z"
+    created: "2024-04-24T08:58:10.446940304Z"
     description: A Helm chart for Kubernetes
     digest: 765f64d93c6b47b1b06670afba73694a47496ea2adc1f209973899491dfe6fba
     name: rabbitmq
@@ -47,7 +83,7 @@ entries:
   rds:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-24T08:56:53.528812962Z"
+    created: "2024-04-24T08:58:10.447273512Z"
     description: A Helm chart for Kubernetes
     digest: 6085046f766a9ee2c99ff19d064e0a74f79184d2c0cceb89abb434ed058b2b70
     name: rds
@@ -58,7 +94,7 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-24T08:56:53.529152546Z"
+    created: "2024-04-24T08:58:10.447563845Z"
     description: A Helm chart for Kubernetes
     digest: 6fe4951c9f5d92eeb1ac632e23c4b342e7bc7fa3feefdb370c95282b66b0880e
     name: redis
@@ -66,4 +102,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/nabeel-blankon-org/charts/main/redis-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-24T08:56:53.526528671Z"
+generated: "2024-04-24T08:58:10.442369179Z"
