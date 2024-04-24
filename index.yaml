@@ -1,0 +1,69 @@
+apiVersion: v1
+entries:
+  application:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-24T08:43:35.411790551Z"
+    description: A Helm chart for Kubernetes
+    digest: 2662ef8688735c9c1d1b3fca242155cd3733ee570c89d6b693e87bc60b85c15f
+    name: application
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/nabeel-blankon-org/charts/main/application-0.1.0.tgz
+    version: 0.1.0
+  file-storage:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-24T08:43:35.412139426Z"
+    description: A Helm chart for Kubernetes
+    digest: 0c0d5fe5df16bc38eac2fb34a92c3a3900d3504f45a72560a5adf04c73ee5ec3
+    name: file-storage
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/nabeel-blankon-org/charts/main/file-storage-0.1.0.tgz
+    version: 0.1.0
+  nosql:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-24T08:43:35.41251601Z"
+    description: A Helm chart for Kubernetes
+    digest: 35a60490545179dd0b5f18274f67f1a623044b98dfe06a607a396c5a4dc6d662
+    name: nosql
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/nabeel-blankon-org/charts/main/nosql-0.1.0.tgz
+    version: 0.1.0
+  rabbitmq:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-24T08:43:35.412800093Z"
+    description: A Helm chart for Kubernetes
+    digest: 070ab7ec596f38d5639186dcaf4d0ea64986e91ee0820a70fb5f1559052902a8
+    name: rabbitmq
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/nabeel-blankon-org/charts/main/rabbitmq-0.1.0.tgz
+    version: 0.1.0
+  rds:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-24T08:43:35.413148676Z"
+    description: A Helm chart for Kubernetes
+    digest: ab78aea5bc495c020d0659cc24ca82326557b4ac692c506f37b62e7d2dea2dfb
+    name: rds
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/nabeel-blankon-org/charts/main/rds-0.1.0.tgz
+    version: 0.1.0
+  redis:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-24T08:43:35.413424926Z"
+    description: A Helm chart for Kubernetes
+    digest: 0d736f9bd99d6c8570183a566a353412d1bd1cecb2440abe1184a6fa4a5cc319
+    name: redis
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/nabeel-blankon-org/charts/main/redis-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-04-24T08:43:35.411067385Z"
